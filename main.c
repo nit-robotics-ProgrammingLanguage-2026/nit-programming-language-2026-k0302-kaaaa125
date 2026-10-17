@@ -1,9 +1,12 @@
 #include <stdio.h>
 
-int main(void) {
-    /* 課題0302: このプログラムは間違っています。修正してください */
-    double d;
-    scanf("%d", &d);
-    printf("%d", d); 
+int main(void) 
+{
+    double num;
+
+    scanf("3.14:");
+    printf("%1f", &num);
+    
+    printf("入力した数値は%fです。\n", num);
     return 0;
 }
