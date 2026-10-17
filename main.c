@@ -1,12 +1,11 @@
 #include <stdio.h>
 
-int main(void) 
+int main(void)
 {
     double num;
 
-    scanf("3.14:");
-    printf("%1f", &num);
-    
-    printf("入力した数値は%fです。\n", num);
+    scanf("%lf", &num);
+    printf("%g\n", num);
+
     return 0;
 }
